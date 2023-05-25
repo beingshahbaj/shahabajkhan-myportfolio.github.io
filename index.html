@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arimo:wght@500&family=DM+Sans:wght@500;700&family=Inter:wght@400;500&family=Quicksand:wght@300&family=Unbounded:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+   <div class="site-main-wraper ">
+     
+      <button class="hamburger ">
+        <img src="bars-solid.svg" alt="">
+      </button>
+     <div class="tabnav ">
+        <button class="times"><img src="cross.svg" alt=""></button>
+        <ul>
+            <h1  id="foot"
+            class="section-heading" style="text-align: left;
+            margin-bottom: 5rem;">SHAHBAJ KHAN <span>WEB DEVELOPER</span> </h1>
+            <li><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/etqbfrgp.json"
+                    trigger="hover"
+                    colors="outline:#131432,primary:#92140c,secondary:#f24c00,tertiary:#b26836,quaternary:#ebe6ef"
+                    style="width:50px;height:50px">
+                </lord-icon><a href="">Home</a></li>
+            <li><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/dqxvvqzi.json"
+                    trigger="hover"
+                    colors="outline:#121331,primary:#ffc738,secondary:#4bb3fd"
+                    style="width:50px;height:50px">
+                </lord-icon><a href="#about">About</a></li>
+            <li><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/oncyjozz.json"
+                    trigger="hover"
+                    colors="outline:#121331,primary:#646e78"
+                    style="width:50px;height:50px">
+                </lord-icon><a href="#services">Services</a></li>
+            <li><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/alzqexpi.json"
+                    trigger="hover"
+                    colors="primary:#121331,secondary:#646e78,tertiary:#ffc738,quaternary:#f9c9c0,quinary:#ebe6ef"
+                    style="width:50px;height:50px">
+                </lord-icon><a href="#work">Work</a></li>
+            <li><script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/ttioogfl.json"
+                    trigger="morph"
+                    colors="primary:#121331,secondary:#ebe6ef,tertiary:#4bb3fd,quaternary:#92140c,quinary:#f9c9c0"
+                    style="width:50px;height:50px">
+                </lord-icon><a href="#blog">Blog</a></li>
+            <li<script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/ovmtvwil.json"
+                trigger="hover"
+                colors="primary:#f9c9c0,secondary:#121331,tertiary:#ebe6ef"
+                style="width:250px;height:250px">
+            </lord-icon>><a href="#contact">Meet us</a></li>
+            <button id="t-btn" class=" btn btn-primary" style="width: 10.5rem;">Contect</button>
+            <button class=" btn btn-secondery" style="display: block;margin-top: 2rem;">DOWNLODE CV</button>
+          </ul>
+         
+          <div>
+            <section class="footer" style= " position: absolute ; 
+                                              width: 100vw;
+                                              bottom: 0;
+                                              
+                                              
+                                              
+                                              ">
+                <h1 class="section-heading">SHAHBAJ KHAN <span>WEB DEVELOPER</span> </h1>
+                <div class="logo flex item-center" id="social-img">
+                    <a href="#"><img src="facebook.png" alt=""></a>
+                    <a href="#"><img src="github.png" alt=""></a>
+                    <a href="#"><img src="twitter.png" alt=""></a>
+                    <a href="#"><img src="google.png" alt=""></a>
+                    <a href="#"><img src="instagram.png" alt=""></a>
+                </div>
+                <p>Copyright © 2021 Shahbaj Khan. All rights reserved.</p>
+            </section>
+          </div>
+     </div>
+
+    <header>
+        
+        <div class="container ">
+            
+            <nav id="main-nav" class="flex item-center justify-between">
+                <div class="left flex item-center">
+                    <div class="branding"><a href="">SHAHBAJ KHAN <br>
+                            <span>WEB DEVELOPER</span></a></div>
+                    <div >
+                        <a href="https://drive.google.com/file/d/1A4kN1ZcnmG9K-tKmhJof9RvJ1F8M2Jkt/view?usp=share_link">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#work">our work</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">meet us</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button id="t-btn" class=" btn btn-primary">Contect</button>
+                </div>
+            </nav>
+            <div class="hero flex item-center">
+                <div class="left">
+                    <h6>SHAHBAJ KHAN</h6>
+                    <h1>
+                        I'm creative <br><span>web developer</span>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora aperiam adipisci perspiciatis
+                        asperiores natus placeat inventore molestias ad, nisi
+                       . Deserunt, voluptatibus
+                        obcaecati.</p>
+                    <div>
+                        <a class=" btn btn-secondery"href="https://drive.google.com/file/d/1A4kN1ZcnmG9K-tKmhJof9RvJ1F8M2Jkt/view?usp=share_link" target="_top">DOWNLODE CV</a>
+                    </div>
+                </div>
+                <div class="right"><img src="2.photo (2).png" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- header section end up header -->
+    <section id="about" class="about">
+        <div id="container-about" class="container flex item-center">
+            <div class="left">
+                <img src="3.PHOTO.png" alt="">
+            </div>
+            <div class="right ">
+                <h1>ABOUT <span>ME</span></h1>
+                <h3>HELLO I'M SHAHBAJ</h3>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores nulla corrupti voluptatum vero,
+                    doloribus quaerat nisi qui dicta commodi, consequuntur voluptates nostrum. Exercitationem quibusdam
+                    aperiam reiciendis cumque? Tenetur minus voluptatem est, perferendis neque porro numquam quaerat
+                    optio enim molestias nam ipsum odio provident nemo, veritatis pariatur corrupti, quas illo saepe?
+                </P>
+                <div id="logo-social-media" class="logo ">
+                    <a href="#"><img src="facebook.png" alt=""></a>
+                    <a href="#"><img src="github.png" alt=""></a>
+                    <a href="#"><img src="twitter.png" alt=""></a>
+                    <a href="#"><img src="google.png" alt=""></a>
+                    <a href="#"><img src="instagram.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h1 class="section-heading">
+                <span>OUR</span> SERVICES
+            </h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eius?</P>
+            <div class="card-wraper">
+                <div class="card">
+                    <img src="paint.svg" alt="">
+                    <h2>GRAPHICS DESINE</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+                <div class="card">
+                    <img src="brackets-curly.svg" alt="">
+                    <h2>WEB DEVWLOPMENT</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+                <div class="card">
+                    <img src="briefcase.svg" alt="">
+                    <h2>MEDIA MARCKETING</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+                <div class="card">
+                    <img src="screen.svg" alt="">
+                    <h2>WEB DESINE</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+                <div class="card">
+                    <img src="film.svg" alt="">
+                    <h2>MOTION GRAPHICS</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+                <div class="card">
+                    <img src="smartphone.svg" alt="">
+                    <h2>APP</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat.</P>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="freelancer">
+        <h1>I'am avaliabel for freelancer</h1>
+        <p>we provide high standerd clean website for your business</p>
+        <button class=" btn  btn-primary">DOWNLODE CV</button>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h1 class="section-heading">what <span>clients </span> say</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam numquam vitae rem impedit minima
+            </p>
+            <div class="slider">
+                <div class="slide">
+                    <img src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="https://img.freepik.com/free-photo/beautiful-teen-girl-student-with-confident-expression-keeps-arms-folded-portrait-smiling-teenager-isolated-white-wall_231208-97.jpg?w=740&t=st=1683445637~exp=1683446237~hmac=b32a8f272857d50ca89ea3abd5d1922819498e3b339f41245c91d3bfb96644e9"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="https://img.freepik.com/free-photo/portrait-young-man-standing-with-crossed-arms-against-gray_144627-63817.jpg?w=740&t=st=1683445664~exp=1683446264~hmac=4d629c3e62dece0630d5f13851fa9bc349017ff31988b19142336587f9e51317"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="https://as1.ftcdn.net/v2/jpg/03/45/77/28/1000_F_345772871_fCtAyWyrqNyuiJ4bHfIMB1HS2txXV1R1.jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="https://media.istockphoto.com/id/1319763830/photo/portrait-of-smiling-mixed-race-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=L0d04sc89UuLW0G80UCu4egl0tQwyl8PLKsIZotbP_U="
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-733872.jpg&fm=jpg"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span>Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span class="span">Abc compony</span>
+                </div>
+                <div class="slide">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas nisi obcaecati dolore
+                        architecto illum</p>
+                    <span class="span">Abc compony</span>
+                </div>
+            </div>
+            <div class="slider-dots">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="container">
+            <h1 class="section-heading"><span>OUR</span>WORK</h1>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, dolores!</P>
+            <div class="card-wraper">
+
+
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://img.freepik.com/free-psd/restaurant-landing-page-template_23-2148466849.jpg?q=10&h=200"
+                        alt="">
+                </div>
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://img.freepik.com/free-psd/various-web-printable-templates-with-screen_23-2148450117.jpg?w=2000"
+                        alt="">
+                </div>
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/10/TheLook-1.jpg" alt="">
+                </div>
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/03/mona-free-personal-website-templates.jpg"
+                        alt="">
+                </div>
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://colorlib.com/wp-content/uploads/sites/2/personalportfolio-free-template.jpeg"
+                        alt="">
+                </div>
+                <div class="work-image">
+                    <div class="overlay">
+                        <span>CATEGORY</span>
+                        <a href="#">WEB DEVELOPMENT</a>
+                    </div>
+                    <img src="https://themeforest.img.customer.envatousercontent.com/files/447246167/05_theme-preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=2c93371741da4a77d9329235f4613acf"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h1 class="section-heading"><span>OUR</span>BLOG</h1>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, cupiditate?</P>
+
+            <div class="card-wraper">
+                <div class="work-image">
+
+                    <div class="image-wraper">
+                        <img src="https://cdn4.wpbeginner.com/wp-content/uploads/2016/11/choose-best-blogging-platform.png"
+                            alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="">
+                            <h1>Lorem ipsum dolor sit.</h1>
+                        </a>
+                        <span>may 12 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi nostrum repellat
+                            numquam error est inventore eaque doloribus accusantium amet esse harum quae fuga,
+                        </p>
+                        <a href="">read more</a>
+
+                    </div>
+
+                </div>
+                <div class="work-image">
+
+                    <div class="image-wraper">
+                        <img src="https://cdn4.wpbeginner.com/wp-content/uploads/2016/11/choose-best-blogging-platform.png"
+                            alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="">
+                            <h1>Lorem ipsum dolor sit.</h1>
+                        </a>
+                        <span>may 12 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi nostrum repellat
+                            numquam error est inventore eaque doloribus accusantium amet esse harum quae fuga,
+                        </p>
+                        <a href="">read more</a>
+
+                    </div>
+
+                </div>
+                <div class="work-image">
+
+                    <div class="image-wraper">
+                        <img src="https://cdn4.wpbeginner.com/wp-content/uploads/2016/11/choose-best-blogging-platform.png"
+                            alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="">
+                            <h1>Lorem ipsum dolor sit.</h1>
+                        </a>
+                        <span>may 12 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi nostrum repellat
+                            numquam error est inventore eaque doloribus accusantium amet esse harum quae fuga,
+                        </p>
+                        <a href="">read more</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+           <div class="container">
+            <h1 class="section-heading"><span>CONTACT</span> US</h1>
+            <P>We provide high stander clean website for your business solution</P>
+            <div class="card-wraper">
+                <div class="contact-img">
+                    <img src="smartphone.svg" alt="">
+                    <h1>call us now</h1>
+                    <h6>9129337160</h6>
+                </div>
+                <div class="contact-img">
+                    <img src="envelope.svg" alt="">
+                    <h1>Email us now</h1>
+                    <h6>shahbaj9129@gmail.com</h6>
+                </div>
+                <div class="contact-img">
+                    <img src="map.svg" alt="">
+                    <h1>Our location</h1>
+                    <h6>jaraila jigna <br>mirzapur up (231313)</h6>
+                </div>
+            </div>
+
+            <form action="">
+                <div class="input-wrap">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your email*">
+                </div>
+                 <div class="input-wrap2">
+                    <input type="text" name="" id="" placeholder="Your subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your massege">  </textarea>
+                 </div>
+                 <div class="btn-wraper">
+                    <button id="send-btn" class="btn btn-primary "> send massege</button>
+                 </div>
+    
+            </form>
+           </div>
+
+    </section>
+
+    <section class="footer">
+        <h1  class="section-heading">SHAHBAJ KHAN  WEB DEVELOPER</h1>
+        <div class="logo flex item-center" id="social-img">
+            <a href="#"><img src="facebook.png" alt=""></a>
+            <a href="#"><img src="github.png" alt=""></a>
+            <a href="#"><img src="twitter.png" alt=""></a>
+            <a href="#"><img src="google.png" alt=""></a>
+            <a href="#"><img src="instagram.png" alt=""></a>
+        </div>
+        <p>Copyright © 2021 Shahbaj Khan. All rights reserved.</p>
+    </section>
+   </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+
+</html>
